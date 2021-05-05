@@ -69,14 +69,14 @@ public class Restaurant {
 
     }
 
-//    public int displayOrderValue(List<String> listItems) {
-//        int finalValue = 0;
+    public int displayOrderValue(List<String> listItems) {
+        int finalValue = 0;
 //        for (String item : listItems) {
 //            Item menuItem = this.findItemByName(item);
 //            finalValue = finalValue + menuItem.getPrice();
 //        }
-//        return finalValue;
-//    }
+        return finalValue;
+    }
 
     public String getName() {
         return name;
