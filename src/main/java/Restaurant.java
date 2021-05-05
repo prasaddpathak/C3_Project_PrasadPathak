@@ -71,10 +71,10 @@ public class Restaurant {
 
     public int displayOrderValue(List<String> listItems) {
         int finalValue = 0;
-//        for (String item : listItems) {
-//            Item menuItem = this.findItemByName(item);
-//            finalValue = finalValue + menuItem.getPrice();
-//        }
+        for (String item : listItems) {
+            Item menuItem = this.findItemByName(item);
+            finalValue = finalValue + menuItem.getPrice();
+        }
         return finalValue;
     }
 
