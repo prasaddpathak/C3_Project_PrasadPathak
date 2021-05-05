@@ -59,16 +59,16 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
 
-    @Test
-    public void calling_displayOrderValue_should_return_total_cost_of_items(){
-        restaurant = createRestaurant();
-        restaurant.addToMenu("Sizzling brownie",300);
-        restaurant.addToMenu("Choco Lava",200);
-        List<String> itemList = new ArrayList<>();
-        itemList.add("Sizzling brownie");
-        itemList.add("Choco Lava");
-        assertEquals(500,restaurant.displayOrderValue(itemList));
-    }
+//    @Test
+//    public void calling_displayOrderValue_should_return_total_cost_of_items(){
+//        restaurant = createRestaurant();
+//        restaurant.addToMenu("Sizzling brownie",300);
+//        restaurant.addToMenu("Choco Lava",200);
+//        List<String> itemList = new ArrayList<>();
+//        itemList.add("Sizzling brownie");
+//        itemList.add("Choco Lava");
+//        assertEquals(500,restaurant.displayOrderValue(itemList));
+//    }
 
     private Restaurant createRestaurant() {
         LocalTime openingTime = LocalTime.parse("10:30:00");
